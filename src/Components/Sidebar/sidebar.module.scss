@@ -1,0 +1,22 @@
+@import '../../styles/vars.scss';
+
+.sidebar{
+    flex: 0 0 15%;
+    background-color: $green;
+    min-height: calc( 100vh - 100px);
+    margin-right: 10px;
+    &__navigate{
+        padding: 40px 20px 0;
+   }
+
+   &__item{
+       font-size: 22px;
+       font-weight: 400;
+       color:#fff;
+       &:not(:last-child){
+           margin: 0 0 15px;
+       }
+   }
+
+   
+}

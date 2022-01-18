@@ -1,0 +1,9 @@
+.layout {
+    overflow-x: hidden;
+
+    &__body {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
